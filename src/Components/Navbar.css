@@ -1,0 +1,24 @@
+.navbar{
+    display: flex;
+    padding: 30px 20px;
+    height: 160px;
+    background-color: #21222A;
+}
+
+.ReactFacts{
+    margin-left: 12px;  
+    margin-right: auto;
+    font-size: 32px;
+    color:#61DAFB;
+
+}
+
+.ReactCourse{
+    color:white;
+    font-size:28px;
+}
+
+.navtext{
+    font-family: 'Inter';
+    
+}

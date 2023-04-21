@@ -1,0 +1,39 @@
+.Container {
+background-color: #282D35;
+padding: 40px;
+height:100vh;
+background-image: url("react-icon-large.png");
+background-repeat: no-repeat;
+background-position: center 30%;
+background-position-x: right;
+background-position-y: center ;
+background-size: 220px;
+
+}
+
+.title{
+    color: white;
+    font-size: 52px;
+}
+.MCtext{
+    font-family: "Inter";
+}
+
+.list{
+    list-style: none;
+}
+
+.list > li{
+    color: white;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.list li::before{
+    content: "\2022";
+    color: #61DAFB;
+    font-weight: bold;
+    display: inline-block; 
+    width: 1em;
+    font-size: 32px;
+}
